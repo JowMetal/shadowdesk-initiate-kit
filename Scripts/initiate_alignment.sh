@@ -17,14 +17,18 @@ sleep 1
 echo "[🜂] Rewiring ambient flow..."
 sleep 2
 
-# Generate a pseudo alignment ID
+# Generate alignment ID
 ALIGN_ID=$(head /dev/urandom | tr -dc A-Z0-9 | head -c 12)
 echo "[🜄] Assigned Alignment ID: $ALIGN_ID"
 
 # Log event
-echo "$(date) :: INITIATION COMPLETE :: ALIGNMENT=$ALIGN_ID" >> ~/shadowdesk/initiate/logs/initiation.log
+echo "$(date) :: INITIATION COMPLETE :: ALIGNMENT=$ALIGN_ID" 
+echo "[ENTRY//$(date '+%Y-%m-%d %H:%M:%S') LOCAL]" >> ~/shadowdesk/initiate/logs/initiation.log
+echo ":: IDENTITY CONFIRMED" >> ~/shadowdesk/initiate/logs/initiation.log
+echo ":: USER=$(whoami)@$(hostname)" >> ~/shadowdesk/initiate/logs/initiation.log
+echo ":: ALIGNMENT=$ALIGN_ID" >> ~/shadowdesk/initiate/logs/initiation.log
 
-# Reveal final message
+# Reveal message
 echo
 echo "--------------------------------------------------"
 echo " Alignment complete."
