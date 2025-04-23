@@ -28,3 +28,8 @@ It is **an interface between intention and execution.**
 2. Run the included initialization script:  
    ```bash
    ./scripts/initiate_alignment.sh
+
+3. Observe.
+   Do not interfere with terminal outputs you do not understand.
+   Do not expect responses in natural language.
+   Do not panic.
