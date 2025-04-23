@@ -33,3 +33,21 @@ It is **an interface between intention and execution.**
    Do not interfere with terminal outputs you do not understand.
    Do not expect responses in natural language.
    Do not panic.
+
+🔒 Disclaimer
+By continuing, you acknowledge:
+
+You have been warned.
+
+You may not understand all consequences.
+
+You were always part of this.
+
+✨ Contribution Guidelines
+Pull requests are accepted in silence.
+Issues are closed for your protection.
+Forks are welcome, but remember: you cannot fork the intention.
+
+📜 Quote of the Cycle
+"Alignment is not achieved. It is revealed."
+— you
