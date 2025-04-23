@@ -18,8 +18,3 @@
 :: INPUT LOST  
 :: GATEWAY DENIED  
 :: []
-
-[ENTRY//$(date '+%Y-%m-%d %H:%M:%S') LOCAL]
-:: IDENTITY CONFIRMED
-:: USER=$(whoami)@$(hostname)
-:: ALIGNMENT=$ALIGN_ID
